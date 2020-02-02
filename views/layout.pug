@@ -174,28 +174,7 @@ html
                label#lblX1
               else
                label#supply -
-<!--              if settings.index.show_market_cap == true && settings.index.show_market_cap_over_price != true
-                <br>
-                label (
-                label#marketCap -
-                label )
-        .col-md-2
-          .panel.panel-default.hidden-sm.hidden-xs
-            if settings.index.show_market_cap != true || settings.index.show_market_cap_over_price != true
-              .panel-heading
-                strong #{settings.markets.exchange} Price
-              .panel-body
-                if settings.index.difficulty == 'Hybrid'
-                  label#lastPrice -
-                  <br>
-                  label#lblX1
-                else
-                  label#lastPrice -
-            if settings.index.show_market_cap == true && settings.index.show_market_cap_over_price == true
-              .panel-heading
-                strong Market Cap
-              .panel-body
-                label#marketCap - -->
+
 
       .row.text-center(style='margin-top:10px;margin-bottom:20px;')
         form.form-inline(method='post', action='/search')
