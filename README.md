@@ -1,5 +1,7 @@
-Iquidus Explorer - 1.7.3
+Eleccoin Explorer - 1.0.0
 ================
+
+Base on Iquidus Explorer - 1.7.3
 
 An open source block explorer written in node.js.
 
@@ -19,7 +21,7 @@ An open source block explorer written in node.js.
 
 ### Requires
 
-*  node.js >= 8.17.0 (12.14.0 is advised for updated dependencies)
+*  node.js >= 12.14.0 (12.14.0 is advised for updated dependencies)
 *  mongodb 4.2.x
 *  *coind
 
